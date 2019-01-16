@@ -1,0 +1,119 @@
+h1.section-title {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.28571429em;
+  color: rgba(0, 0, 0, 0.87); }
+
+.Navbar__Menu {
+  display: flex;
+  padding-top: 20px;
+  max-width: 1200px;
+  margin: 0 auto; }
+  .Navbar__Menu--Left, .Navbar__Menu--Right,
+  .Navbar__Menu .BrandTitle {
+    color: #000;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif; }
+  .Navbar__Menu--Left, .Navbar__Menu--Right {
+    flex: 33%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400; }
+  .Navbar__Menu__Item:hover {
+    text-decoration: underline;
+    color: black; }
+  .Navbar__Menu--Desktop .submenu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative; }
+    .Navbar__Menu--Desktop .submenu .menuToggle {
+      cursor: pointer; }
+  .Navbar__Menu--Desktop #menu_content {
+    height: 0;
+    visibility: hidden;
+    transition: height 0.5s cubic-bezier(0.42, 0, 0.2, 1);
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 20px;
+    left: -60px;
+    z-index: 999999999; }
+    .Navbar__Menu--Desktop #menu_content.block {
+      height: 200px;
+      visibility: visible;
+      width: 200px; }
+      .Navbar__Menu--Desktop #menu_content.block .item {
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+        font-weight: 300;
+        font-family: Montserrat, sans-serif; }
+  .Navbar__Menu--Mobile {
+    position: relative;
+    padding: 20px 10px 0; }
+    .Navbar__Menu--Mobile .menu-hamburger {
+      position: absolute;
+      display: block;
+      font-size: 20px;
+      z-index: 9999;
+      display: flex;
+      flex-direction: column; }
+      .Navbar__Menu--Mobile .menu-hamburger .icon {
+        text-align: left;
+        cursor: pointer; }
+      .Navbar__Menu--Mobile .menu-hamburger .main-menu {
+        background: #fff;
+        border: 1px solid #ccc;
+        width: auto;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+        height: 0;
+        visibility: hidden;
+        transition: all 0s cubic-bezier(0.42, 0, 0.2, 1); }
+        .Navbar__Menu--Mobile .menu-hamburger .main-menu.block {
+          height: auto;
+          visibility: visible; }
+        .Navbar__Menu--Mobile .menu-hamburger .main-menu .item {
+          padding: 10px;
+          border-bottom: 1px solid #eee;
+          font-weight: 300;
+          font-family: Montserrat, sans-serif; }
+        .Navbar__Menu--Mobile .menu-hamburger .main-menu .submenu {
+          display: flex;
+          justify-content: center;
+          flex-direction: column; }
+          .Navbar__Menu--Mobile .menu-hamburger .main-menu .submenu .menuToggle {
+            cursor: pointer; }
+        .Navbar__Menu--Mobile .menu-hamburger .main-menu #menu_content {
+          height: 0;
+          visibility: hidden;
+          transition: height 0.5s cubic-bezier(0.42, 0, 0.2, 1); }
+          .Navbar__Menu--Mobile .menu-hamburger .main-menu #menu_content.block {
+            height: 200px;
+            visibility: visible; }
+            .Navbar__Menu--Mobile .menu-hamburger .main-menu #menu_content.block .item {
+              padding: 10px; }
+
+.Navbar .BrandTitle {
+  letter-spacing: 1.5px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0 auto;
+  padding-left: 20px;
+  z-index: 999999999;
+  color: #000000; }
+  @media (min-width: 1024px) {
+    .Navbar .BrandTitle {
+      font-size: 26px;
+      flex: 66%; } }
+
+.Header {
+  margin-bottom: 20px; }
+  @media (min-width: 1024px) {
+    .Header {
+      width: auto;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px; } }

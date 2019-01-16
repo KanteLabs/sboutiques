@@ -1,0 +1,9 @@
+.BrandLogo {
+  width: 125px;
+  height: 125px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 100%; }
+  .BrandLogo__Image {
+    width: 100%;
+    height: 100%; }

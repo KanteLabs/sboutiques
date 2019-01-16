@@ -1,0 +1,30 @@
+h1.section-title {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.28571429em;
+  color: rgba(0, 0, 0, 0.87); }
+
+.ProductUpload__Message--Hidden {
+  display: none; }
+
+.ProductUpload__Form__Container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; }
+
+.ProductUpload__Form__Description, .ProductUpload__Form__Categories {
+  margin-bottom: 15px; }
+
+.ProductUpload__Form__Description {
+  width: 49%; }
+
+.ProductUpload__Form__Categories {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+  margin: 0 0 15px; }
+
+@media (max-width: 415px) {
+  .ProductUpload__Form__Description, .ProductUpload__Form__Categories {
+    width: 100%; } }

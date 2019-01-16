@@ -1,0 +1,10 @@
+@import '../../styles/main.scss';
+
+.DesignerPage {
+    &Container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin-top: $gutter-large;
+    }
+}
