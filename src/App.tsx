@@ -8,19 +8,21 @@ import {
 } from 'react-router-dom';
 
 // Components
+import HomePageOne from './components/Home/HomePageOne/Component/HomePageOne';
 
 // Pages
 
 import './App.css';
 
+const className = 'App';
 class App extends Component {
     render() {
         return (
             <Router>
-                <div className="App">
-                    <div className="app-body">
+                <div className={className}>
+                    <div className={`${className}__Body`}>
                         <Switch>
-                            
+                            <HomePageOne />
                         </Switch>
                     </div>
                 </div>
