@@ -1,0 +1,18 @@
+@import '../../../../styles/main.scss';
+
+.JoinMailing {
+    &__Image {
+        position: fixed;
+        z-index: 999;
+        left: 1%;
+        bottom: 1%;
+        width: 300px;
+        cursor: pointer;
+    }
+
+    &__Modal {
+        &__Image {
+            margin-bottom: $gutter-large;
+        }
+    }
+}

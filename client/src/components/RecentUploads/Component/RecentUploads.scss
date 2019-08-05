@@ -1,0 +1,14 @@
+@import '../../../styles/main.scss';
+
+.RecentUploads {
+	&Container {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		margin-top: $gutter-large;
+	}
+
+	.section-title {
+		margin: $gutter-extra-large 0 $gutter-large;
+	}
+}

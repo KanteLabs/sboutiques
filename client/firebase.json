@@ -1,0 +1,42 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/process",
+        "function": "process"
+      },
+      {
+        "source": "/pay",
+        "function": "pay"
+      },
+      {
+        "source": "/contactEmail",
+        "function": "contactEmail"
+      },
+      {
+        "source": "/brandForm",
+        "function": "brandForm"
+      },
+      {
+        "source": "/newPayment",
+        "function": "newPayment"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "storage": {
+    "rules": "storage.rules"
+  }
+}

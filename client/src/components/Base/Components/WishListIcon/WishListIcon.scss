@@ -1,0 +1,11 @@
+@import '../../../../styles/main.scss';
+
+i.WishListIcon {
+	color: $black-disabled;
+
+	&.liked,
+	&:hover {
+		color: $red;
+		cursor: pointer;
+	}
+}

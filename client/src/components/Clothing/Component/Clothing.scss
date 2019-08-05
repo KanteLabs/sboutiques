@@ -1,0 +1,34 @@
+@import '../../../styles/main.scss';
+
+.Clothing {
+	margin: 0 15px 20px;
+	width: 250px;
+
+	&__Image {
+		width: 250px;
+		height: 250px;
+	}
+
+	&__Content {
+		&__Header,
+		&__Description,
+		&__Details {
+			font-family: 'Montserrat', sans-serif;
+			a {
+				&:hover {
+					color: $black;
+					text-decoration: underline $black;
+				}
+			}
+		}
+
+		&__Header {
+			font-weight: 600;
+		}
+
+		&__Details {
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+}

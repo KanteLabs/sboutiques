@@ -1,0 +1,40 @@
+Ideas For Features
+Articles Section could focus
+    - current trends
+    - fashion shows
+    - latest drops
+    - weekly best outfits
+    - outfit of the day
+    - brand of the week
+    - interviews
+    - music possibly
+    - lifestyle
+    -Art, culture, fashion, music, news
+
+Clothing types breakdown
+    OUTERWEAR
+    TOPS
+    BOTTOMS
+    FOOTWEAR
+        Boots
+        Formal Shoes
+        Sandals
+        sneakers
+    ACCESSORIES
+
+
+Products made to order option if no sizes are available
+
+optional brand logo
+
+changed additonal_images spelling lol
+
+cheaper than shopify pricing - https://www.shopify.com/pricing
+
+* catch errors and display messages instead of console logging
+1. When buying a product introduce a loader or spinner, so it doesn't look like it crashed.
+2. Send emails to sellers automatically on new purchases.
+3. Spinner for payment process page, before redirect
+
+
+- Add SEO for articles and products
